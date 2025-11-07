@@ -1,4 +1,6 @@
-public class Day1_06_11_25 {
+package POD;
+
+ class Day1_06_11_25 {
 
      public void check(int n){
             if(n % 2 == 0){
