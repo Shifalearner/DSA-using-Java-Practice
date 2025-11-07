@@ -1,6 +1,6 @@
 package POD;
 
- class Day1_06_11_25 {
+ class Day1_06_11 {
 
      public void check(int n){
             if(n % 2 == 0){
@@ -10,7 +10,7 @@ package POD;
             }
         }
     public static void main(String[] args) {
-       Day1_06_11_25 d = new Day1_06_11_25();
+       Day1_06_11 d = new Day1_06_11();
        d.check(13);
     }
 }
