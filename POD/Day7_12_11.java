@@ -3,25 +3,23 @@ package POD;
 import java.util.Scanner;
 
 public class Day7_12_11 {
-    public void checkPalindrome(String s){
+    public void checkPalindrome(String s) {
 
-       s =  s.toLowerCase();
-       s = s.replaceAll("[^a-z0-9]", "");
+        s = s.toLowerCase();
+        s = s.replaceAll("[^a-z0-9]", "");
         int i = 0;
-        int j = s.length()-1;
+        int j = s.length() - 1;
 
         while (i < j) {
-            if( s.charAt(i) != s.charAt(j)){
+            if (s.charAt(i) != s.charAt(j)) {
                 System.out.println("Entered string is not a palindrome.");
                 return;
             }
-                i++;
-                j--;
+            i++;
+            j--;
         }
-                System.out.println("Entered string is palindrome.");
-            
-            
-        
+        System.out.println("Entered string is palindrome.");
+
     }
 
     public static void main(String[] args) {
@@ -30,7 +28,6 @@ public class Day7_12_11 {
         System.out.println("Enter any string ");
 
         String s = sc.nextLine();
-
 
         Day7_12_11 d = new Day7_12_11();
 
