@@ -13,13 +13,15 @@ public class Day7_12_11 {
         while (i < j) {
             if( s.charAt(i) != s.charAt(j)){
                 System.out.println("Entered string is not a palindrome.");
-            }else{
-                i = i + 1;
-                j = j - 1;
-                System.out.println("Entered string is palindrome.");
+                return;
             }
-            
+                i++;
+                j--;
         }
+                System.out.println("Entered string is palindrome.");
+            
+            
+        
     }
 
     public static void main(String[] args) {
