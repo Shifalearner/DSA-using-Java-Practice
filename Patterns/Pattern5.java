@@ -1,8 +1,7 @@
 package Patterns;
 
-public class Pattern3 {
-    
-     public static void main(String[] args) {
+public class Pattern5 {
+    public static void main(String[] args) {
         
         for(int i = 1; i <= 5; i++){
 
@@ -12,7 +11,7 @@ public class Pattern3 {
             }
 
             for (int k = 1; k <= i; k++){
-                 System.out.print("*");
+                 System.out.print(" *");
             }
             
         
